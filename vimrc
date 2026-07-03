@@ -246,9 +246,8 @@ augroup END
 " LeaderキーをSpaceにする
 let mapleader = "\<Space>"
 
-" Insert/Replace/Visual modeからCtrl-kでNormal modeに戻る
+" Insert/Visual modeからCtrl-kでNormal modeに戻る
 inoremap <C-k> <Esc>
-rnoremap <C-k> <Esc>
 vnoremap <C-k> <Esc>
 
 " InsertとAppendを入れ替える
