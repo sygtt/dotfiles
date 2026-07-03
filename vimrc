@@ -95,10 +95,10 @@ set showmatch
 set matchtime=1
 
 " 現在行をハイライトする
-set cursorline
+" set cursorline
 
 " エラーやGit差分などの表示列を常に確保する
-set signcolumn=yes
+" set signcolumn=yes
 
 " 不可視文字の表示形式を指定する
 set listchars=tab:»\ ,trail:·,extends:>,precedes:<,nbsp:%
