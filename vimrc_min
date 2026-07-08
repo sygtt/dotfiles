@@ -1,0 +1,57 @@
+" UI and basic settings
+set nocompatible
+scriptencoding utf-8
+set encoding=utf-8
+set number
+syntax enable
+set title
+set ruler
+set showcmd
+set laststatus=2
+set cmdheight=1
+set display=lastline
+set showmatch
+set autoread
+filetype plugin indent on
+
+" search setitngs
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set wrapscan
+nnoremap <silent> <Esc><Esc> :nohlsearch<CR>
+
+" indent and tab
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" Keymaps
+nnoremap <silent> j gj
+nnoremap <silent> k gk
+vnoremap <silent> j gj
+vnoremap <silent> k gk
+
+let mapleader = "\<Space>"
+
+inoremap <C-k> <Esc>
+vnoremap <C-k> <Esc>
+
+nnoremap i a
+nnoremap a i
+nnoremap I A
+nnoremap A I
+
+nnoremap <Leader>K K
+nnoremap <Leader>J J
+
+nnoremap K 10k
+nnoremap J 10j
+
+nnoremap H ^
+nnoremap L $
